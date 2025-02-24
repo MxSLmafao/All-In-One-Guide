@@ -49,7 +49,7 @@ echo ".env" >> .gitignore  # echo creates a new text file with the ".env" conten
 Then commit the .gitignore file and push:
 
 ```bash
-git filter-branch --force --index-filter "git rm --cached --ignore-unmatch .env" --prune-empty --tag-name-filter cat -- --all
+git filter-branch --force --index-filter "git rm --cached --ignore-unmatch SECRETSFILENAME" --prune-empty --tag-name-filter cat -- --all
 ```
 
 **ONLY DO THIS IF YOU WANT TO REMOVE AN ACCIDENTALLY ADDED PRIVATE FILE FROM THE HISTORY SO IT CANNOT BE RETRIEVED**
