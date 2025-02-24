@@ -1,6 +1,6 @@
 # Welcome to all of my config guides just to remind myself!
 
-[Send to File](cloudflare.example.config.yml)
+[Send to Cloudflared Config](cloudflare.example.config.yml)
 
 [Send to GitHub](github.md)
 
