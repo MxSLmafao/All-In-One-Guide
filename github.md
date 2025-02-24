@@ -1,5 +1,3 @@
-Certainly! Here is the formatted content of your README.md file:
-
 # GithubRepoGuide
 
 ```bash
