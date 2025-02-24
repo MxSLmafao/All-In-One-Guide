@@ -1,0 +1,7 @@
+tunnel: tunnelid
+credentials-file: /home/ubuntu/.cloudflared/tunnelid.json
+
+ingress:
+  - hostname: domain.name
+    service: http://ip:port
+  - service: http_status:404
